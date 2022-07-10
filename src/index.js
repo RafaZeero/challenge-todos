@@ -10,8 +10,17 @@ app.use(express.json());
 
 const users = [];
 
+// middleware
 function checksExistsUserAccount(request, response, next) {
-  // Complete aqui
+  const { username } = request.headers;
+
+  const user = users.find((user) => user.username === username);
+
+  if (!user) return response.status(404).json({ error: "Mensagem do erro" });
+
+  request.username = username;
+
+  return next();
 }
 
 app.post("/users", (request, response) => {
@@ -35,7 +44,7 @@ app.post("/users", (request, response) => {
 });
 
 app.get("/todos", checksExistsUserAccount, (request, response) => {
-  // Complete aqui
+  const { username } = request.body;
 });
 
 app.post("/todos", checksExistsUserAccount, (request, response) => {
