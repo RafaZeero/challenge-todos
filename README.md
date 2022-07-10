@@ -180,10 +180,10 @@ Para que esse teste passe, você não deve permitir excluir um _todo_ que não e
   - [x] GET `/todos`
   - [x] POST `/todos`
   - [x] PUT `/todos/:id`
-  - [ ] PATCH `/todos/:id/done`
+  - [x] PATCH `/todos/:id/done`
   - [ ] DELETE `/todos/:id`
 
-- [ ] **Testes de Usuários**
+- [x] **Testes de Usuários**
 
   - [x] Should be able to create a new user
   - [x] Should not be able to create a new user when username already exists
@@ -194,6 +194,6 @@ Para que esse teste passe, você não deve permitir excluir um _todo_ que não e
   - [x] Should be able to create a new todo
   - [x] Should be able to update a todo
   - [x] Should not be able to update a non existing todo
-  - [ ] Should be able to mark a todo as done
+  - [x] Should be able to mark a todo as done
   - [ ] Should be able to delete a todo
   - [ ] Should not be able to delete a non existing todo
