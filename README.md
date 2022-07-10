@@ -174,26 +174,26 @@ Para que esse teste passe, você não deve permitir excluir um _todo_ que não e
 
 ### Checklist
 
-- [] **Rotas da aplicação**
+- [ ] **Rotas da aplicação**
 
-  - [] POST `/users`
-  - [] GET `/todos`
-  - [] POST `/todos`
-  - [] PUT `/todos/:id`
-  - [] PATCH `/todos/:id/done`
-  - [] DELETE `/todos/:id`
+  - [x] POST `/users`
+  - [x] GET `/todos`
+  - [ ] POST `/todos`
+  - [ ] PUT `/todos/:id`
+  - [ ] PATCH `/todos/:id/done`
+  - [ ] DELETE `/todos/:id`
 
-- [] **Testes de Usuários**
+- [ ] **Testes de Usuários**
 
-  - [] Should be able to create a new user
-  - [] Should not be able to create a new user when username already exists
+  - [x] Should be able to create a new user
+  - [x] Should not be able to create a new user when username already exists
 
-- [] **Testes de _todos_**
-  - [] Middleware
-  - [] Should be able to list all user's todos
-  - [] Should be able to create a new todo
-  - [] Should be able to update a todo
-  - [] Should not be able to update a non existing todo
-  - [] Should be able to mark a todo as done
-  - [] Should be able to delete a todo
-  - [] Should not be able to delete a non existing todo
+- [ ] **Testes de _todos_**
+  - [x] Middleware
+  - [x] Should be able to list all user's todos
+  - [ ] Should be able to create a new todo
+  - [ ] Should be able to update a todo
+  - [ ] Should not be able to update a non existing todo
+  - [ ] Should be able to mark a todo as done
+  - [ ] Should be able to delete a todo
+  - [ ] Should not be able to delete a non existing todo
