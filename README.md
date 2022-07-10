@@ -178,8 +178,8 @@ Para que esse teste passe, você não deve permitir excluir um _todo_ que não e
 
   - [x] POST `/users`
   - [x] GET `/todos`
-  - [ ] POST `/todos`
-  - [ ] PUT `/todos/:id`
+  - [x] POST `/todos`
+  - [x] PUT `/todos/:id`
   - [ ] PATCH `/todos/:id/done`
   - [ ] DELETE `/todos/:id`
 
@@ -191,9 +191,9 @@ Para que esse teste passe, você não deve permitir excluir um _todo_ que não e
 - [ ] **Testes de _todos_**
   - [x] Middleware
   - [x] Should be able to list all user's todos
-  - [ ] Should be able to create a new todo
-  - [ ] Should be able to update a todo
-  - [ ] Should not be able to update a non existing todo
+  - [x] Should be able to create a new todo
+  - [x] Should be able to update a todo
+  - [x] Should not be able to update a non existing todo
   - [ ] Should be able to mark a todo as done
   - [ ] Should be able to delete a todo
   - [ ] Should not be able to delete a non existing todo
